@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "summary": "Port of Eric Meyer's famous CSS reset",
+    "summary": "Eric Meyer's famous CSS reset for elm-css",
     "repository": "https://github.com/scottcorgan/elm-css-reset.git",
     "license": "MIT",
     "source-directories": [

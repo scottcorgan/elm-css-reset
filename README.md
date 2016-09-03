@@ -1,2 +1,3 @@
 # elm-css-reset
-Port of Eric Meyer's famous CSS reset
+
+Eric Meyer's famous CSS reset for elm-css
