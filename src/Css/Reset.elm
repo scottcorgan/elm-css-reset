@@ -1,4 +1,4 @@
-module Css.Normalize exposing (css, snippets)
+module Css.Reset exposing (css, snippets)
 
 {-| This library is mostly a direct port of [normalize.css](https://github.com/necolas/normalize.css).
 Compile it with your elm-css code to have easier cross-browser styling experience.
