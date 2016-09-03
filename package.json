@@ -1,0 +1,9 @@
+{
+  "name": "elm-css-reset",
+  "version": "1.0.0",
+  "description": "Port of Eric Meyer's famous CSS reset",
+  "author": "Scott Corgan",
+  "devDependencies": {
+    "elm": "0.17.1"
+  }
+}
