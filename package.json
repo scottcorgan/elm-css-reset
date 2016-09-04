@@ -1,9 +1,0 @@
-{
-  "name": "elm-css-reset",
-  "version": "1.0.0",
-  "description": "Eric Meyer's famous CSS reset for elm-css",
-  "author": "Scott Corgan",
-  "devDependencies": {
-    "elm": "0.17.1"
-  }
-}
