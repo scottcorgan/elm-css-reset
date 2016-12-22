@@ -1,16 +1,15 @@
 module Examples.Main exposing (..)
 
 import Html exposing (..)
-import Html.App
 import Html.Template
 import Html.CssHelpers
 import Css.File
 import Css.Reset
 
 
-main : Program Never
+main : Program Never {} b
 main =
-    Html.App.beginnerProgram
+    Html.beginnerProgram
         { model = {}
         , update = (\_ _ -> {})
         , view = view
@@ -30,4 +29,3 @@ view model =
         [ Html.CssHelpers.style compiledCss
         , Html.Template.view
         ]
-

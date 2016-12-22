@@ -1,5 +1,5 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "summary": "Eric Meyer's famous CSS reset for elm-css",
     "repository": "https://github.com/scottcorgan/elm-css-reset.git",
     "license": "MIT",
@@ -10,11 +10,11 @@
         "Css.Reset"
     ],
     "dependencies": {
-        "elm-lang/core": "4.0.5 <= v < 5.0.0",
-        "elm-lang/html": "1.1.0 <= v < 2.0.0",
-        "rtfeldman/elm-css": "6.1.0 <= v < 7.0.0",
-        "rtfeldman/elm-css-helpers": "2.0.0 <= v < 3.0.0",
-        "scottcorgan/elm-html-template": "1.0.0 <= v < 2.0.0"
+        "elm-lang/core": "5.0.0 <= v < 6.0.0",
+        "elm-lang/html": "2.0.0 <= v < 3.0.0",
+        "rtfeldman/elm-css": "7.0.0 <= v < 8.0.0",
+        "rtfeldman/elm-css-helpers": "2.0.1 <= v < 3.0.0",
+        "scottcorgan/elm-html-template": "1.0.1 <= v < 2.0.0"
     },
-    "elm-version": "0.17.1 <= v < 0.18.0"
+    "elm-version": "0.18.0 <= v < 0.19.0"
 }
