@@ -1,17 +1,17 @@
 module Examples.Main exposing (..)
 
-import Html exposing (..)
-import Html.Template
-import Html.CssHelpers
-import Css.File
+import Css
 import Css.Reset
+import Html exposing (..)
+import Html.CssHelpers
+import Html.Template
 
 
 main : Program Never {} b
 main =
     Html.beginnerProgram
         { model = {}
-        , update = (\_ _ -> {})
+        , update = \_ _ -> {}
         , view = view
         }
 
@@ -19,7 +19,8 @@ main =
 compiledCss : String
 compiledCss =
     Css.Reset.css
-        |> Css.File.compile
+        |> List.singleton
+        |> Css.compile
         |> .css
 
 
